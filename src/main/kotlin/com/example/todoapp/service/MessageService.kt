@@ -1,5 +1,7 @@
-package com.example.todoapp
+package com.example.todoapp.service
 
+import com.example.todoapp.model.Message
+import com.example.todoapp.repository.MessageRepository
 import org.springframework.stereotype.Service
 
 @Service

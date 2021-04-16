@@ -1,6 +1,6 @@
-package com.example.todoapp
+package com.example.todoapp.repository
 
-import org.springframework.data.annotation.QueryAnnotation
+import com.example.todoapp.model.User
 import org.springframework.data.jdbc.repository.query.Query
 import org.springframework.data.repository.CrudRepository
 import org.springframework.data.repository.query.Param

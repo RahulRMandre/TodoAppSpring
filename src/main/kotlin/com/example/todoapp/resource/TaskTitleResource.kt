@@ -1,5 +1,7 @@
-package com.example.todoapp
+package com.example.todoapp.resource
 
+import com.example.todoapp.service.TaskListTitleService
+import com.example.todoapp.model.TaskListTitle
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.bind.annotation.PostMapping

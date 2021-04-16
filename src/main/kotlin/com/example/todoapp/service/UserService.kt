@@ -1,4 +1,6 @@
-package com.example.todoapp
+package com.example.todoapp.service
+import com.example.todoapp.model.User
+import com.example.todoapp.repository.UserRepository
 import org.springframework.stereotype.Service
 
 @Service
