@@ -13,8 +13,8 @@ data class Task(
     var details: String="",
     @Column("COMPLETION_DATE")
     var completionDate: Long=0,
-    @Column("IS_COMPLETE")
-    var isComplete: Int=0,
+    @Column("FINISH")
+    var finish: Int=0,
     @Column("CREATED_AT")
     var createdAt: Long=0,
 )

@@ -11,4 +11,8 @@ class TaskService(val db:TaskRepository) {
     fun post(task: Task){
         db.save(task)
     }
+
+    fun delete(task: Task) {
+        db.delete(task)
+    }
 }
